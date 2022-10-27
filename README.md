@@ -14,9 +14,6 @@ clima_app
 │   README.md
 │
 ├───build
-├───public
-│       favicon.ico
-│       index.html
 │
 └───src
     │   App.js
@@ -25,13 +22,13 @@ clima_app
     │
     ├───assets
     │   └───imgs
-    │
+    └───services
+    │       Weather_Api
     └───components
-            api.js
-            Error.js
-            Footer.js
+            Api_Key.js
+            Errors.js
             Header.js
-            WeatherCard.js
+            Card.js
 ```
 
 
